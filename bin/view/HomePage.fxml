@@ -90,9 +90,9 @@
                   </VBox>
                </children>
             </HBox>
-            <Button fx:id="loginButton" alignment="CENTER" mnemonicParsing="false" prefHeight="48.0" prefWidth="234.0" style="-fx-background-color: #4dd2ff; -fx-background-radius: 100px;" text="Login" textFill="WHITE" GridPane.columnIndex="6" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3">
+            <Button fx:id="loginButton" alignment="CENTER" mnemonicParsing="false" prefHeight="48.0" prefWidth="234.0" style="-fx-background-color: #4dd2ff; -fx-background-radius: 100px;" text="ログイン" textFill="WHITE" GridPane.columnIndex="6" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3">
                <font>
-                  <Font size="24.0" />
+                  <Font name="System Bold" size="24.0" />
                </font>
             </Button>
          </children>
@@ -122,9 +122,9 @@
          <children>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="370.0" GridPane.columnIndex="2" GridPane.columnSpan="4">
                <children>
-                  <Label alignment="CENTER" text="Graph_Algorithms" textFill="WHITE" HBox.hgrow="ALWAYS">
+                  <Label alignment="CENTER" text="グラフ・アルゴリズム" textFill="WHITE" HBox.hgrow="ALWAYS">
                      <font>
-                        <Font name="System Bold" size="36.0" />
+                        <Font name="System Bold" size="48.0" />
                      </font>
                   </Label>
                </children>
@@ -150,8 +150,8 @@
          <children>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" GridPane.columnIndex="2" GridPane.columnSpan="4">
                <children>
-                  <FontAwesomeIconView glyphName="USERS" size="50" />
-                  <Label text="Nguyen Dinh Son" textFill="WHITE">
+                  <FontAwesomeIconView fill="WHITE" glyphName="STACK_OVERFLOW" size="50" />
+                  <Label text="技術は人生をよりシンプルにします！" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="36.0" />
                      </font>

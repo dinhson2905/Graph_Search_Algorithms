@@ -9,7 +9,40 @@ import javafx.scene.shape.Path;
 public class EdgeArrow extends Path {
         private static final double defaultArrowHeadSize = 7;
         private double startX, startY, endX, endY;
-        public EdgeArrow(double startX, double startY, double endX, double endY, double arrowHeadSize){
+        
+        public double getStartX() {
+			return startX;
+		}
+
+		public double getStartY() {
+			return startY;
+		}
+
+		public double getEndX() {
+			return endX;
+		}
+
+		public double getEndY() {
+			return endY;
+		}
+
+		public void setStartX(double startX) {
+			this.startX = startX;
+		}
+
+		public void setStartY(double startY) {
+			this.startY = startY;
+		}
+
+		public void setEndX(double endX) {
+			this.endX = endX;
+		}
+
+		public void setEndY(double endY) {
+			this.endY = endY;
+		}
+
+		public EdgeArrow(double startX, double startY, double endX, double endY, double arrowHeadSize){
             super();
             this.startX = startX;
             this.startY = startY;

@@ -165,7 +165,7 @@
                         </JFXToggleButton>
                      </children>
                   </HBox>
-                  <HBox alignment="CENTER" prefHeight="85.0" prefWidth="234.0" spacing="20.0" GridPane.columnSpan="4" GridPane.rowIndex="7">
+                  <HBox alignment="CENTER" prefHeight="85.0" prefWidth="234.0" spacing="20.0" GridPane.columnSpan="4" GridPane.rowIndex="6">
                      <children>
                         <JFXButton alignment="CENTER" buttonType="RAISED" onAction="#clickAbout" prefHeight="55.0" prefWidth="110.0" style="-fx-background-color: #4dd2ff; -fx-background-radius: 100px;" text="About" textFill="WHITE">
                            <graphic>
@@ -185,7 +185,7 @@
                         </JFXButton>
                      </children>
                   </HBox>
-                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnSpan="4" GridPane.rowIndex="6">
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnSpan="4" GridPane.rowIndex="7">
                      <children>
                         <JFXButton buttonType="RAISED" onAction="#backHome" prefHeight="55.0" prefWidth="144.0" style="-fx-background-color: #ff5722;" text="Home" textFill="WHITE">
                            <graphic>
